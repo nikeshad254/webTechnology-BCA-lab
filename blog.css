@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+    background: linear-gradient(45deg, red, blue);
+    color: white;
+    font-family: sans-serif;
+}
+.post-heading{
+    font-size: 3rem;
+}
+address > p{
+    font-size: 1.3rem;
+}
+address .name{
+    margin-bottom: 10px;
+}
+.references{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+.references img{
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    margin-right: 20px;
+}
+.first-para{
+    margin: 50px 0px;
+}
