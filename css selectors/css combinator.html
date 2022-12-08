@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinator</title>
+    <style>
+        div p{
+            color: red;
+            font-weight: bold;
+        }
+        .two > p{
+            color: blue;
+            font-weight: 100;
+            font-size: 1.5rem;
+        }
+        .two + p{
+            color: gray;
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
+        .six ~ p{
+            color: purple;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>one</p>
+        <p>two</p>
+    </div>
+    <div class="two">
+        <p>three</p>
+        <p>four</p>
+    </div>
+    <p>five</p>
+    <p class="six">six</p>
+    <p>seven</p>
+    <p>eight</p>
+</body>
+</html>
