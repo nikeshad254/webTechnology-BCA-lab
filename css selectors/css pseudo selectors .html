@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Pseudo Element Selectotrs</title>
+
+    <style>
+        .fpara::first-line{
+            text-transform: uppercase;
+        }
+        .spara::first-letter{
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        .tpara::before{
+            content: "Hey, ";
+        }
+        .tpara::after{
+            content: " Ends.";
+        }
+        li::marker{
+            font-size: 10px;
+        }
+        .fopara::selection{
+            background: yellow;
+
+        }
+    </style>
+</head>
+<body>
+    <p class="fpara">Hey man. <br> How Are you?</p>
+    <p class="spara">Yoho ho! I am fine.</p>
+    <p class="tpara">TEXT</p>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+    </ul>
+    <p class="fopara">select here</p>
+</body>
+</html>
