@@ -1,0 +1,27 @@
+
+<?xml-stylesheet type="text/xml" href="student.xsl"?>
+<class>
+    <student>
+        <rollnum>1</rollnum>
+        <firstname>Harry</firstname>
+        <lastname>Kumar</lastname>
+    </student>
+
+    <student>
+        <rollnum>2</rollnum>
+        <firstname>Larry</firstname>
+        <lastname>Roy</lastname>
+    </student>
+
+    <student>
+        <rollnum>3</rollnum>
+        <firstname>Gita</firstname>
+        <lastname>Pandey</lastname>
+    </student>
+
+    <student>
+        <rollnum>4</rollnum>
+        <firstname>Raja</firstname>
+        <lastname>Ram</lastname>
+    </student>
+</class>
