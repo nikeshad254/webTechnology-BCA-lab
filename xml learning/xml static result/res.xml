@@ -1,0 +1,83 @@
+<?xml-stylesheet type="text/xml" href="res.xsl"?>
+<class>
+    <student>
+        <roll>1</roll>
+        <name>Luffy</name>
+        <marks>
+            <math>45</math>
+            <science>45</science>
+            <social>45</social>
+        </marks>
+        <results>
+            <total>135</total>
+            <percentage>45</percentage>
+            <result>Pass</result>
+            <division>Third</division>
+        </results>
+    </student>
+
+    <student>
+        <roll>2</roll>
+        <name>Zoro</name>
+        <marks>
+            <math>30</math>
+            <science>30</science>
+            <social>30</social>
+        </marks>
+        <results>
+            <total>90</total>
+            <percentage>30</percentage>
+            <result>Fail</result>
+            <division>Failed</division>
+        </results>
+    </student>
+
+    <student>
+        <roll>3</roll>
+        <name>Sanji</name>
+        <marks>
+            <math>90</math>
+            <science>90</science>
+            <social>90</social>
+        </marks>
+        <results>
+            <total>270</total>
+            <percentage>90</percentage>
+            <result>Pass</result>
+            <division>Distinction</division>
+        </results>
+    </student>
+
+    <student>
+        <roll>4</roll>
+        <name>Jimbe</name>
+        <marks>
+            <math>63</math>
+            <science>63</science>
+            <social>63</social>
+        </marks>
+        <results>
+            <total>126</total>
+            <percentage>63</percentage>
+            <result>Pass</result>
+            <division>First</division>
+        </results>
+    </student>
+
+    <student>
+        <roll>5</roll>
+        <name>Robin</name>
+        <marks>
+            <math>53</math>
+            <science>53</science>
+            <social>53</social>
+        </marks>
+        <results>
+            <total>159</total>
+            <percentage>53</percentage>
+            <result>Pass</result>
+            <division>Second</division>
+        </results>
+    </student>
+ 
+</class>
