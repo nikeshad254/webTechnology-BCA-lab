@@ -1,0 +1,52 @@
+<?xml-stylesheet type="text/xml" href="result.xsl"?>
+<class>
+    <student>
+        <roll>11</roll>
+        <name>Nikesh Adhikari</name>
+        <marks>
+            <math>10</math>
+            <science>30</science>
+            <social>50</social>
+        </marks>
+    </student>
+
+    <student>
+        <roll>30</roll>
+        <name>Raju Roy</name>
+        <marks>
+            <math>40</math>
+            <science>40</science>
+            <social>40</social>
+        </marks>
+    </student>
+
+    <student>
+        <roll>14</roll>
+        <name>Raju Ram</name>
+        <marks>
+            <math>50</math>
+            <science>30</science>
+            <social>50</social>
+        </marks>
+    </student>
+
+    <student>
+        <roll>13</roll>
+        <name>Harry Larry</name>
+        <marks>
+            <math>90</math>
+            <science>96</science>
+            <social>91</social>
+        </marks>
+    </student>
+
+    <student>
+        <roll>15</roll>
+        <name>Parry Low</name>
+        <marks>
+            <math>55</math>
+            <science>55</science>
+            <social>53</social>
+        </marks>
+    </student>
+</class>
