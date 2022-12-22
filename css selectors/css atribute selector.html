@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS attribute selector</title>
+
+    <style>
+        a[target="_blank"]{
+            text-transform: uppercase;
+        }
+
+        p[title ~= "flower"]{
+            text-decoration: underline;
+        }
+
+        p[title |= "bold"]{
+            font-weight: bolder;
+        }
+
+        p[title ^= "yellow"]{
+            background: yellow;
+            display: inline-block;
+        }
+        p[class $= "test"]{
+            text-transform: uppercase;
+        }
+        p[class *= "toy"]{
+            background: yellow;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" target="_blank">Target Link</a>
+    <p title="new flower"> new flower</p>
+    <p title="bold-text">bolder</p>
+    <p title="yellowbg">Yellow</p>
+    <p class="this-test">Test</p>
+    <p class="toypark">toy park</p>
+
+</body>
+</html>
