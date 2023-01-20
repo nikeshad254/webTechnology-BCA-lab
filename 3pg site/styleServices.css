@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+body{
+    background: #b0cbff;
+    display: flex;
+    flex-direction: column;
+}
+
+/* navigation */
+nav{
+    background-color: #cedfff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3rem;
+}
+.imgAndHeader{
+    display: flex;
+    align-items: center;
+}
+
+.imgAndHeader img{
+    height: 2rem;
+    margin-right: 10px;
+    /* width: 50px; */
+}
+.imgAndHeader h3{
+    font-size: 1.4rem;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav a{
+    display: flex;
+    height: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0rem 1.5rem;
+    color: inherit;
+    margin: 0 0.5rem;
+}
+nav a:hover{
+    border-bottom: 4px solid #05a805;
+}
+.header{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.header p{
+    width: 50vw;
+    text-align: justify;
+    margin-left: 10rem;
+}
+.plans{
+    background: url(city.jpg);
+    background-position: center;
+    height: 75vh;
+    width: 75vw;
+    align-self: center;
+    margin-top: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.second-hand{
+    /* display: inline-block; */
+    /* position: absolute; */
+    
+    border: 1px solid rgb(18, 18, 18);
+    background-color: #b0cbff;
+    display: flex;
+    width: 18rem;
+    height: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -14px 13px 0px 1px rgb(17, 136, 255);
+}
+.second-hand h4{
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+.second-hand ul{
+    list-style: none;
+}
+.second-hand li{
+    padding: 10px;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.second-hand button{
+    padding: 0.5rem 2rem;
+    margin: 1rem 0;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    background-color: #b0cbff;
+}
+.second-hand button:hover{
+    background-color: #a0c1fe;
+
+}
+.second-hand.next{
+    box-shadow: 13px -14px 0px 1px rgb(255, 32, 32);
+}
+footer{
+    text-align: center;
+    color: #fff;
+    height: 2rem;
+    background: #000;
+}
