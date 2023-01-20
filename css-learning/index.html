@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .div1 {
+            background: red;
+            display: flex;
+            height: 200px;
+
+        }
+
+        .div2 {
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+            background: #707070;
+        }
+
+        .div3 {
+            width: 150px;
+            height: 150px;
+            background: tomato;
+        }
+
+        .div4,
+        .div5 {
+            width: 40%;
+            padding: 10px;
+            border: 2px solid black;
+            color: #fff;
+        }
+
+        .div4 {
+            background: rgb(102, 24, 10);
+            /* box-sizing: border-box; */
+        }
+
+        .div4 p {
+            font-size: 24px;
+        }
+
+        .div5 {
+            background: rgb(50, 55, 220);
+        }
+
+        .myname {
+            width: 250px;
+            border-top: 12px solid black;
+            border-bottom: 12px solid green;
+            border-left: 12px solid red;
+            border-right: 12px solid blue;
+            padding: 10px;
+            margin-top: 10px;
+            box-sizing: border-box; 
+            /* box sizing makes border come form inside i.e. from content */
+            font-size: 2.1rem;
+        }
+        .name2{
+            width: 250px;
+            border-top: 12px solid black;
+            border-bottom: 12px solid green;
+            border-left: 12px solid red;
+            border-right: 12px solid blue;
+            padding: 10px;
+            margin-top: 10px;
+            font-size: 2.1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsam nam eum quas a? Qui, neque excepturi
+        voluptatibus tenetur dolore tempore dolorum aliquid commodi.</p>
+    <div class="div1">
+        <div class="div2">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt assumenda voluptas laborum, labore
+                blanditiis, accusamus aut ducimus nostrum unde sapiente voluptate possimus consequuntur aperiam?</p>
+        </div>
+
+        <div class="div3"></div>
+    </div>
+
+    <div class="div4">
+        <h1>heading form 4</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates atque, culpa hic nisi ipsam accusamus
+            sit, inventore maiores repudiandae commodi odio, dolor ut deserunt.</p>
+        <button>this</button>
+    </div>
+
+    <div class="div5">
+        <h1>heading form 5</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates atque, culpa hic nisi ipsam accusamus
+            sit, inventore maiores repudiandae commodi odio, dolor ut deserunt.</p>
+        <button>this</button>
+    </div>
+
+    <p class="myname">Nikesh Adhikari</p>
+    <p class="name2">Nikesh Adhikari</p>
+</body>
+
+</html>
